@@ -1,141 +1,170 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
-
-    <!-- my css -->
-  <style>
-    section{
-      min-height: 420px;
-            }
-
-  </style>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 
 
 
+        <!-- my css -->
+      <style>
+        section{
+          min-height: 420px;
+                }
 
-    <title>My Web</title>
-  </head>
-  <body class="mt-5">
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Yusuf Akbar Priaji</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact"contact>Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="container text-center">
-    <img src="img/3.jpg" width="25%" class="rounded-circle img-thumbail">
-    <h1 class="display-4">Yusuf Akbar Priaji</h1>
-    <p class="lead">selamat Datang di Website Saya</p>
-  </div>
-</div>
-
-
-<section id="about" class="about">
-  <div class="container">
-    <div class="row mb-2">
-      <div class="col">
-        <h1 class="text-center">About</h1>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-5">
-        <p>Assalamualaikum.Perkenalkan nama saya Yusuf Akbar Priaji.Saya lahir di Karanganyar pada 27 februari 2003.Sekarang saya bersekolah di SMKN 2 Karanganyar jurusan RPL.Alamat saya di Soko Rt2/5,Kalijirak,Tasikmadu,Karanganyar,Jawa Tengah</p>
-      </div>
-    </div>
-  </div>
-</section>
+      </style>
 
 
 
-<section id="contact" class="contact mb-5">
-  <div class="container">
-    <div class="row pt-4 mb-4">
-      <div class="col text-center">
-        <h2>Contact Us</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-4">
-      <div class="card text-white bg-primary mb-3 text-center">
-        <div class="card-body">
-          <h5 class="card-title">Contact Us</h5>
-          <p class="card-text">Jika ada yang ditanyakan silahkan hubungi saja saya</p>
-        </div>
-      </div>
-      <ul class="list-group">
-        <li class="list-group-item"><h1>Location</h1></li>
-        <li class="list-group-item">My Home</li>
-        <li class="list-group-item">Jl.Soko,Kalijirak,Tasikmadu,Karanganyar</li>
-        <li class="list-group-item">Central Java, Indonesia</li>
-      </ul>
-      </div>
 
-      <div class="col-lg-6">
-      <form>
-      <div class="form-group">
-        <label for="nama">Nama</label>
-        <input type="text" class="form-control" id="nama">
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="text" class="form-control" id="email">
-      </div>
-      <div class="form-group">
-        <label for="telp">No Telp</label>
-        <input type="text" class="form-control" id="telp">
-      </div>
-      <div class="form-group">
-        <label for="pesan">Pesan</label>
-        <textarea name="pesan" id="pesan" class="form-control"></textarea>
-      </div>
-      <div class="form-goup">
-      <button type="button" class="btn btn-primary">
-        Kirim Pesan
+        <title>My Web</title>
+      </head>
+      <body class="mt-5">
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Yusuf Akbar Priaji</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
-      </form>
-
-      </div>
-
-    </div>
-
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <div class="spinner-border text-primary" role="status">
+    <span class="sr-only">Loading...</span>
   </div>
-</section>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Bio</a>
+          </li>
+          <div class="spinner-border text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"contact>Contact</a>
+          </li>
+        </ul>
+        <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <img src="img/3.jpg" width="25%" class="rounded-circle img-thumbail">
+        <h1 class="display-4">Yusuf Akbar Priaji</h1>
+        <p class="lead">selamat Datang di Website Saya</p>
+      </div>
+    </div>
 
 
-
-  <footer class="bg-dark text-white">
-    <div class="container">
-      <div class="row pt-3">
-        <div class="col text-center">
-          <p>Copyright 2020</p>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row mb-2 pt-4">
+          <div class="col">
+            <h1 class="text-left">Bio Data</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <ul>
+              <li>Nama</li>
+              <li>Tempat tanggal lahir</li>
+              <li>Agama</li>
+              <li>Alamat</li></br>
+              <li>Golongan darah</li>
+              <li>Sekolah</li>
+              <li>Jurusan</li>
+              <li>>No Telp</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            :Yusuf Akbar Priaji</br>
+            :Karanganyar,27 Februari 2003</br>
+            :Islam</br>
+            :Soko Rt2/5,Kalijirak, kec.Tasikmadu,kab.Karanganyar, Jawa Tengah, Indonesia</br>
+            :O</br>
+            :SMK N 2 Karanganyar</br>
+            :RPL</br>
+            :085742719858
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
+
+
+
+    <section id="contact" class="contact mb-5">
+      <div class="container">
+        <div class="row pt-4 mb-4">
+          <div class="col text-center">
+            <h2>Contact</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+          <div class="card text-white bg-primary mb-3 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Contact</h5>
+              <p class="card-text">Jika ada yang ditanyakan silahkan hubungi saja saya</p>
+            </div>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item"><h1>Location</h1></li>
+            <li class="list-group-item">My Home</li>
+            <li class="list-group-item">Jl.Soko,Kalijirak,Tasikmadu,Karanganyar</li>
+            <li class="list-group-item">Central Java, Indonesia</li>
+          </ul>
+          </div>
+
+          <div class="col-lg-6">
+          <form>
+          <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="text" class="form-control" id="nama">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="telp">No Telp</label>
+            <input type="text" class="form-control" id="telp">
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea name="pesan" id="pesan" class="form-control"></textarea>
+          </div>
+          <div class="form-goup">
+          <button type="button" class="btn btn-primary">
+            Kirim Pesan
+          </button>
+        </div>
+          </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+      <footer class="bg-dark text-white">
+        <div class="container">
+          <div class="row pt-3">
+            <div class="col text-center">
+              <p>Copyright 2020</p>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 
 
@@ -162,10 +191,10 @@
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-</html>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      </body>
+    </html>
