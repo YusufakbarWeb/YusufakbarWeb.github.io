@@ -51,3 +51,7 @@ footer{
 	height: 10px;
 	margin-top: -10px;
 }
+.container p{
+	font-size: 20px;
+	border-left: 200px;
+}
